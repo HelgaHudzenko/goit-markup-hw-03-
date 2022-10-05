@@ -102,8 +102,10 @@ textarea {
 }
 
 .container {
-	width: 1170px;
+	width: 1200px;
 	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 
@@ -144,6 +146,7 @@ nav:active {
 .header-contacts a {
 	text-decoration: none;
 	color: var(--main-txt-cl);
+	margin-left: auto;
 }
 
 .header-contacts a:hover,
@@ -155,7 +158,7 @@ nav:active {
 /* logo */
 .logo {
 	display: inlineblock;
-	padding-right: 93px;
+	margin-right: 93px;
 	font-family: var(--secondary-font);
 	font-weight: 700;
 	font-size: 26px;
@@ -215,7 +218,7 @@ nav:active {
 /* hero */
 
 .hero {
-	padding: 200px;
+	padding: 200px 0;
 	background-color: var(--secondary-bg-cl);
 }
 
@@ -253,7 +256,7 @@ nav:active {
 
 
 .about {
-	padding: 94px;
+	padding: 94px 0;
 }
 
 .feature-list {
@@ -297,8 +300,13 @@ nav:active {
 	line-height: calc(42/36);
 	text-align: center;
 	letter-spacing: 0.03em;
-
+	padding-top: 94px;
+	padding-bottom: 94px;
 	color: var(--second-txt-cl);
+}
+
+.section {
+	padding-top: 0px;
 }
 
 /* features */
@@ -353,20 +361,20 @@ nav:active {
 }
 
 .team__item {
-	padding-bottom: 30px;
 	background: #fff;
 	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 	border-radius: 0px 0px 4px 4px;
 }
 
-.team__item img {
-	padding-bottom: 30px;
-}
 
 .team-card-title {
 	margin-bottom: 10px;
 }
 
+.team-inform {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
 /* buttons */
 .btn {
 	font-weight: 500;
@@ -408,13 +416,13 @@ nav:active {
 /* footer */
 
 .footer {
-	padding: 60px;
+	padding: 60px 0;
 	background-color: var(--secondary-bg-cl);
 }
 
 .footer__logo {
 	display: block;
-	padding-bottom: 20px;
+	margin-bottom: 20px;
 }
 
 .footer-contacts {
@@ -424,11 +432,11 @@ nav:active {
 
 .footer-contacts .cont:nth-child(2) {
 	display: block;
-	padding-bottom: 9px !important;
+	margin-bottom: 9px !important;
 }
 
 .footer-adress {
-	padding-bottom: 9px;
+	margin-bottom: 9px;
 }
 
 .footer-adress {
@@ -458,7 +466,7 @@ nav:active {
 
 .shop {
 	border-top: 1px solid #ECECEC;
-	padding: 94px;
+	padding: 94px 0;
 }
 
 .buttons {
