@@ -256,7 +256,9 @@ nav:active {
 
 
 .about {
-	padding: 94px 0;
+	padding-top: 94px;
+	padding-bottom: 94px;
+
 }
 
 .feature-list {
@@ -418,7 +420,8 @@ nav:active {
 /* footer */
 
 .footer {
-	padding: 60px 0;
+	padding-top: 60px;
+padding-bottom: 60px;
 	background-color: var(--secondary-bg-cl);
 }
 
@@ -468,7 +471,8 @@ nav:active {
 
 .shop {
 	border-top: 1px solid #ECECEC;
-	padding: 94px 0;
+	padding-top: 94px;
+	padding-bottom: 94px;
 }
 
 .buttons {
