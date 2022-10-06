@@ -79,7 +79,6 @@ h3,
 h4,
 h5,
 h6 {
-	font-weight: 400;
 	margin: 0;
 }
 
@@ -269,7 +268,7 @@ nav:active {
 
 .feature-list-title {
 	margin-bottom: 10px;
-	margin-top: 15px;
+	
 
 }
 
@@ -291,6 +290,9 @@ nav:active {
 	display: block;
 	border: 0;
 }
+.what__title {
+	padding-top: 0;
+}
 
 /* section  */
 
@@ -304,13 +306,12 @@ nav:active {
 	line-height: calc(42/36);
 	text-align: center;
 	letter-spacing: 0.03em;
-	padding-top: 15px;
-	padding-bottom: 15px;
 	color: var(--second-txt-cl);
 }
 
 .section {
-	padding-top: 0px;
+	padding-top: 94px;
+	padding-bottom: 94px;
 }
 
 /* features */
@@ -379,6 +380,13 @@ nav:active {
 	padding-top: 30px;
 	padding-bottom: 30px;
 }
+
+img {
+	display: block;
+	height: auto;
+	width: 100%;
+}
+
 /* buttons */
 .btn {
 	font-weight: 500;
@@ -400,6 +408,9 @@ nav:active {
 	color: var(--light-txt-cl);
 	background-color: var(--button-bg-cl);
 }
+.buttons-projects {
+	visibility: hidden;
+}
 
 /* projects */
 .projects-card-title {
@@ -407,6 +418,7 @@ nav:active {
 	font-size: 18px;
 	line-height: calc(36/18);
 	letter-spacing: 0.04em;
+	margin-bottom: 4px;
 	color: var(--second-txt-cl);
 }
 
@@ -421,7 +433,7 @@ nav:active {
 
 .footer {
 	padding-top: 60px;
-padding-bottom: 60px;
+    padding-bottom: 60px;
 	background-color: var(--secondary-bg-cl);
 }
 
